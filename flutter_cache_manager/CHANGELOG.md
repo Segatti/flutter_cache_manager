@@ -1,3 +1,8 @@
+## [Unreleased]
+
+* Update example Android project for Flutter 3.44 (Gradle 9.1 / AGP 9.0.1 / Kotlin 2.3.20, Java 17)
+* Migrate example Android app to built-in Kotlin
+
 ## [3.4.1] - 2024-08-13
 
 * Target js_interop for Wasm support
