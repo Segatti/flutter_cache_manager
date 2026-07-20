@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+* Raise minimum Dart SDK to 3.8.0 and update dependencies
 * Update example Android project for Flutter 3.44 (Gradle 9.1 / AGP 9.0.1 / Kotlin 2.3.20, Java 17)
 * Migrate example Android app to built-in Kotlin
 * Migrate example iOS app from CocoaPods to Swift Package Manager
