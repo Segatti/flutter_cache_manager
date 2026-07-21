@@ -1,5 +1,5 @@
-Contributing to the Flutter CacheManager package
-=============================================
+Contributing to the Flutter Cache Manager package
+=================================================
 
 What you will need
 ------------------
@@ -18,12 +18,12 @@ Setting up your development environment
    to generate an SSH key.
  * Clone your forked repo on your local development machine: `git clone git@github.com:<your_name_here>/flutter_cache_manager.git`
  * Change into the `flutter_cache_manager` directory: `cd flutter_cache_manager`
- * Add an upstream to the original repo, so that fetch from the master repository and not your clone: `git remote add upstream git@github.com:Baseflow/flutter_cache_manager.git`
+ * Add an upstream to the original repo, so that fetch from the main repository and not your clone: `git remote add upstream git@github.com:Baseflow/flutter_cache_manager.git`
 
 Running the example project
 ---------------------------
 
- * Change into the example directory: `cd example`
+ * Change into the example directory for the package you are working on, e.g. `cd flutter_cache_manager/example`
  * Run the App: `flutter run`
 
 Contribute
@@ -31,12 +31,12 @@ Contribute
 
 We really appreciate contributions via GitHub pull requests. To contribute take the following steps:
 
- * Make sure you are up to date with the latest code on the master: 
+ * Make sure you are up to date with the latest code on develop:
    * `git fetch upstream`
    * `git checkout upstream/develop -b <name_of_your_branch>`
  * Apply your changes
- * Verify your changes and fix potential warnings/ errors:
-   * Check formatting: `flutter format .`
+ * Verify your changes and fix potential warnings/ errors (run from the package you changed):
+   * Check formatting: `dart format .`
    * Run static analyses: `flutter analyze`
    * Run unit-tests: `flutter test`
  * Commit your changes: `git commit -am "<your informative commit message>"`
@@ -47,3 +47,11 @@ Send us your pull request:
  * Go to `https://github.com/Baseflow/flutter_cache_manager` and click the "Compare & pull request" button.
 
  Please make sure you solved all warnings and errors reported by the static code analyses and that you fill in the full pull request template. Failing to do so will result in us asking you to fix it.
+
+Pull request scope and versioning
+---------------------------------
+
+Each pull request should follow these conventions:
+
+ * **One package per PR** — keep changes confined to a single package directory (`flutter_cache_manager/`, `flutter_cache_manager_firebase/`). Cross-package changes require maintainer coordination and are usually split into separate PRs.
+ * **Add CHANGELOG entry to Unreleased** — for your change, add one or more entries under the "Unreleased" section of that package's `CHANGELOG.md`. Include a short description of the change, following the style of previous entries, and add a link to your pull request (e.g., `([#123](https://github.com/Baseflow/flutter_cache_manager/pull/123))`).
