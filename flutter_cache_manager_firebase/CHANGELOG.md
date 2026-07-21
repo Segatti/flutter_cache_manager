@@ -1,3 +1,9 @@
+## [2.1.3] - 2026-07-21
+
+* Raises minimum Dart SDK to 3.10.0
+* Updates dependencies
+* Supports firebase_storage 13.x (constraint widened to `<14.0.0`)
+
 ## [2.1.2] - 2026-07-21
 
 * Fixes `bucket` and `retryOptions` being ignored due to variable shadowing.
