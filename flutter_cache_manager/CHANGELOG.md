@@ -1,4 +1,4 @@
-## [Unreleased]
+## [3.4.2]
 
 * Fixes `removeFile` deleting from the wrong path
 * Raises minimum Dart SDK to 3.8.0 and update dependencies
