@@ -1,7 +1,9 @@
 ## [Unreleased]
 
 * Modernizes GitHub Actions CI (combined quality job, pinned Flutter 3.44.4, Dependabot for actions)
-* Updates example Android project to AGP 8.11.1 / Gradle 8.14 / Kotlin 2.2.20 for compatibility with current Flutter tooling and `jni`
+* Updates example Android project to AGP 9.0.1 / Gradle 9.1 / Kotlin 2.3.20
+* Migrates example Android app to built-in Kotlin
+* Pins example `path_provider_android` to 2.2.22 to avoid transitive `jni` / `jni_flutter` AGP 9 issues
 
 ## [3.4.2]
 
