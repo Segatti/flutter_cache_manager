@@ -1,3 +1,8 @@
+## [Unreleased]
+
+* Modernizes GitHub Actions CI (combined quality job, pinned Flutter 3.44.4, Dependabot for actions)
+* Updates example Android project to AGP 8.11.1 / Gradle 8.14 / Kotlin 2.2.20 for compatibility with current Flutter tooling and `jni`
+
 ## [3.4.2]
 
 * Fixes `removeFile` deleting from the wrong path
