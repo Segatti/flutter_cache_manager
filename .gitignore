@@ -12,6 +12,7 @@
 devtools_options.yaml
 .fvmrc
 .fvm/
+AGENTS.md
 
 # Environment files
 ios/Flutter/Dart-Defines.xcconfig
