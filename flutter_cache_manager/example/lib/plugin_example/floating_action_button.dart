@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// A [FloatingActionButton] used for downloading a file in [CacheManagerPage]
 class Fab extends StatelessWidget {

@@ -2,7 +2,7 @@ import 'package:baseflow_plugin_template/baseflow_plugin_template.dart';
 import 'package:example/plugin_example/download_page.dart';
 import 'package:example/plugin_example/floating_action_button.dart';
 import 'package:flutter/foundation.dart' show kDebugMode;
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 
 void main() {

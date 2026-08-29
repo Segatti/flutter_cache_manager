@@ -1,10 +1,13 @@
 ## [Unreleased]
 
+## [3.5.0] - 2026-08-29
+
 * Fixes `JsonCacheInfoRepository` losing metadata when the app exits within 3 seconds of a cache change by writing through promptly with serialized, atomic file writes ([#491](https://github.com/Baseflow/flutter_cache_manager/issues/491))
 * Modernizes GitHub Actions CI (combined quality job, pinned Flutter 3.44.4, Dependabot for actions)
 * Updates example Android project to AGP 9.0.1 / Gradle 9.1 / Kotlin 2.3.20
 * Migrates example Android app to built-in Kotlin
 * Pins example `path_provider_android` to 2.2.22 to avoid transitive `jni` / `jni_flutter` AGP 9 issues
+* Migrates example and tests to `material_ui` for compatibility with Flutter 3.44+
 
 ## [3.4.2]
 
